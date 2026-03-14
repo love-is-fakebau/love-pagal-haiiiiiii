@@ -1,0 +1,84 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║          HOW TO RUN "LOVE IS SIMPLE" WEBSITE                  ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+OPTION 1: Using Docker (Recommended)
+═════════════════════════════════════
+
+1. Install Docker Desktop (if not installed)
+   - Windows: https://www.docker.com/products/docker-desktop
+
+2. Open terminal in web_challenge_love folder:
+   cd web_challenge_love
+
+3. Build and run:
+   docker-compose up -d
+
+4. Access website:
+   http://localhost:5000
+
+5. Stop website:
+   docker-compose down
+
+═════════════════════════════════════════════════════════════════
+
+OPTION 2: Using Python Directly
+═════════════════════════════════
+
+1. Install Python 3.11+ (if not installed)
+
+2. Open terminal in web_challenge_love folder:
+   cd web_challenge_love
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Run the application:
+   python app.py
+
+5. Access website:
+   http://localhost:5000
+
+6. Stop website:
+   Press Ctrl+C in terminal
+
+═════════════════════════════════════════════════════════════════
+
+TESTING THE CHALLENGE
+═════════════════════════════════════
+
+The website will show a beautiful page with:
+- Purple gradient background
+- Beating heart animation 💖
+- "Love Is Simple" title
+- Message about timing
+
+To get the flag, you need to:
+1. Wait until 2:00 PM - 2:20 PM IST
+2. Send POST request to /api/confess with correct headers
+3. Use solution.py script to automate this
+
+═════════════════════════════════════════════════════════════════
+
+QUICK TEST (During 2-2:20 PM IST)
+═════════════════════════════════
+
+python solution.py http://localhost:5000
+
+═════════════════════════════════════════════════════════════════
+
+FILES IN web_challenge_love/:
+═════════════════════════════════
+
+app.py              - Main Flask application
+requirements.txt    - Python dependencies
+Dockerfile          - Docker container config
+docker-compose.yml  - Docker deployment config
+solution.py         - Solution script
+CHALLENGE.txt       - Challenge description
+README.md           - Technical documentation
+ORGANIZER_NOTES.md  - Detailed guide for organizers
+
+═════════════════════════════════════════════════════════════════

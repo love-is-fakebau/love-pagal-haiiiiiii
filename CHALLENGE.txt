@@ -1,0 +1,57 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║                    💖 LOVE IS SIMPLE 💖                       ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+Author: MD
+Category: Web
+Difficulty: Hard
+Points: 500
+
+═══════════════════════════════════════════════════════════════
+
+STORY:
+
+They say love is simple. But is it really?
+
+True love waits for the right moment. Some feelings can only be 
+expressed at the perfect time. Rush it, and you'll be rejected. 
+Wait too long, and the moment passes.
+
+This application knows when love should be confessed. It has its 
+own schedule, its own rules. You cannot force it. You cannot 
+trick it. You must understand it.
+
+═══════════════════════════════════════════════════════════════
+
+CHALLENGE:
+
+Visit the web application and find a way to confess your love.
+But remember: timing is everything.
+
+URL: http://[challenge-server]:5000
+
+═══════════════════════════════════════════════════════════════
+
+OBJECTIVE:
+
+Extract the flag by successfully confessing your love to the API.
+
+Flag format: TRACECTF{...}
+
+═══════════════════════════════════════════════════════════════
+
+HINTS:
+
+The API does not trust your feelings. It trusts time.
+If access depends on "being at the right moment," ask yourself:
+Whose clock is being checked?
+
+═══════════════════════════════════════════════════════════════
+
+Good luck. Love waits for no one.
+
+- MD
+
+═══════════════════════════════════════════════════════════════
